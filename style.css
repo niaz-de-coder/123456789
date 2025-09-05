@@ -1,0 +1,39 @@
+body{
+    font-family: 'Kalpurush', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 1vh;
+}
+input{
+    width: 50%;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.output-hidden {
+    display: none;
+}
+.output-visible {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    box-sizing: border-box;
+    width: 80%;
+}
+span{
+    color: red;
+}
