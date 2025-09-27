@@ -9,8 +9,8 @@ document.getElementById("revSub").addEventListener("click", function(event){
     }
     else{
         revenue = document.getElementById("rev").value;
-        var needsBudget = revenue*(50/100);
-        var wantsBudget = (revenue*(30/100))/4;
+        var needsBudget = (revenue*(50/100))/30;
+        var wantsBudget = (revenue*(30/100));
         var savingsBudget = revenue*(20/100);
 
         document.getElementById("needsSpan").innerHTML = needsBudget;
