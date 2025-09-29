@@ -27,7 +27,7 @@ input{
 .output-hidden{
     display: none;
 }
-.output{
+.output-visible{
     display: flex;
     flex-direction: column;
     gap: 1vh;
@@ -36,4 +36,7 @@ input{
 }
 span{
     color: red;
+}
+h5{
+    color: green;
 }
