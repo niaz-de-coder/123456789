@@ -24,10 +24,10 @@ input{
     justify-content: center;
     align-items: center;
 }
-.output-hidden {
+.output-hidden{
     display: none;
 }
-.output-visible {
+.output{
     display: flex;
     flex-direction: column;
     gap: 1vh;
